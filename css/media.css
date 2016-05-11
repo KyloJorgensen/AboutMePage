@@ -1,8 +1,6 @@
 @media only screen and (max-width: 500px) {
     /* CSS rules for media go here */
-body {
-  font-size: 0.5em;
-}
+body {}
 
 .masthead-heading,
 .masthead-intro,
@@ -33,11 +31,9 @@ body {
   margin-top: 1em;
 }
 
-.social > li {
-}
+.social > li {}
 
-.footer-content {
-}
+.footer-content {}
 
 .footer-content > p {
   padding: 0.5em;
