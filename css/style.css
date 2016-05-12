@@ -1,7 +1,7 @@
 body {
   /* Typography Declarations*/
   color: #222222;
-  font-size: 1em;
+  font-size: 1rem;
   font-family: "Roboto", "Helvetica Neue", sans-serif; 
 }
 
@@ -9,6 +9,15 @@ body {
 .masthead-intro,
 .footer-content {
   text-align: center;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
 }
 
 .masthead {
@@ -36,22 +45,18 @@ body {
   text-shadow: 4px 4px #000000;
 }
 
-.introduction-section,
-.location-section,
-.questions-section {
-  max-width: 38em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2em;
+.social {
+  padding: 0;
 }
 
 .social > li {
   display: inline-block;
   color: #002000;
+  padding-right: 0.5rem;
 }
 
 .footer-content {
-  background-color: #005005
+  background-color: #197B2F; 
 }
 
 .footer-content > p {
